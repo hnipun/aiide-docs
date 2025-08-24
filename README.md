@@ -32,8 +32,9 @@ Once these steps are complete, the editor is ready for use.
 
 #### Chat
 
-The user can access this from the left-side pane. 
-- By default, the context sent to the LLM includes only the tabs that are currently open. 
+The user can access this from the left-side pane.
+
+- By default, the context sent to the LLM includes only the tabs that are currently open.
 - However, the user can also select additional files or folders using the `+ context` option.
 
 #### Apply
@@ -44,3 +45,15 @@ Each code block includes an Apply button:
 - Click Apply to review a diff between your current file and the suggested code.
 - If the file doesn’t exist, you’ll be prompted to create it.
 
+#### Autocomplete
+
+Works like most code editors: as user type, a suggestion popup appears, allowing user to pick from a list of
+options. Open tabs are automatically used as context to provide more accurate suggestions.
+
+#### Gray Code Completions
+
+Press `Ctrl + M` to trigger Gray Code completion in the editor.
+
+- Press `Tab` to accept the suggestion.
+
+- Press `Esc` to dismiss it.
