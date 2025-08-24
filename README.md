@@ -1,1 +1,46 @@
-# aiide-docs
+# notbadaiide v0.9.3
+
+## Download
+
+use the following like to download the app:
+
+https://drive.google.com/file/d/15y4yP5h8VkHg-PVIqQN9Tr3zKMpTOaip/view?usp=sharing
+
+after downloading unzip and run the following command:
+
+```bash
+xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.3app
+```
+
+## Extensions
+
+Extensions are Python scripts that enable interactions with LLMs, such as chat, code apply, autocomplete, gray
+completions etc. Users can create
+their own extensions, which the editor will manage and execute (explained in a later section).
+
+### Setup
+
+- When the editor is launched for the first time, the default extensions will be downloaded to ~
+  /.notbadaiide/extensions/.
+- This can be verified by navigating to `Extensions` (left side pane) → `Management` and checking the
+  `Extensions Repository`. It should display the downloaded.
+- The user also needs to configure the `Python Path` and `API Key` under `Extensions` → `Management`.
+
+Once these steps are complete, the editor is ready for use.
+
+### Types
+
+#### Chat
+
+The user can access this from the left-side pane. 
+- By default, the context sent to the LLM includes only the tabs that are currently open. 
+- However, the user can also select additional files or folders using the `+ context` option.
+
+#### Apply
+
+Whenever the chat provides a code suggestion, it appears inside a code block.
+Each code block includes an Apply button:
+
+- Click Apply to review a diff between your current file and the suggested code.
+- If the file doesn’t exist, you’ll be prompted to create it.
+
