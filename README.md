@@ -20,8 +20,8 @@ their own extensions, which the editor will manage and execute (explained in a l
 
 ### Setup
 
-- When the editor is launched for the first time, the default extensions will be downloaded to ~
-  /.notbadaiide/extensions/.
+- When the editor is launched for the first time, the default extensions will be downloaded to `~
+  /.notbadaiide/extensions/.`
 - This can be verified by navigating to `Extensions` (left side pane) → `Management` and checking the
   `Extensions Repository`. It should display the downloaded.
 - The user also needs to configure the `Python Path` and `API Key` under `Extensions` → `Management`.
