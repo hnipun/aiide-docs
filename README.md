@@ -12,7 +12,7 @@ after downloading unzip and run the following command:
 xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.3app
 ```
 
-## Extensions
+## Default Extensions
 
 Extensions are Python scripts that enable interactions with LLMs, such as chat, code apply, autocomplete, gray
 completions etc. Users can create
@@ -55,5 +55,4 @@ options. Open tabs are automatically used as context to provide more accurate su
 Press `Ctrl + M` to trigger Gray Code completion in the editor.
 
 - Press `Tab` to accept the suggestion.
-
 - Press `Esc` to dismiss it.
