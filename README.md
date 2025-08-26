@@ -19,6 +19,8 @@ Code. [Here](https://github.com/hnipun/aiide-docs/blob/main/code_editing_shortcu
 
 ## Terminal
 
+To reset the terminal (clearing both the display and back-scroll history), click the Reset button.
+
 ## Default Extensions
 
 Extensions are Python scripts that enable interactions with LLMs, such as chat, code apply, autocomplete, gray
@@ -43,6 +45,7 @@ The user can access this from the left-side pane.
 
 - By default, the context sent to the LLM includes only the tabs that are currently open.
 - However, the user can also select additional files or folders using the `+ context` option.
+- Terminal content (last 1000 lines) is also included in the context sent to the LLM.
 
 #### Apply
 
