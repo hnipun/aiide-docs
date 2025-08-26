@@ -73,7 +73,7 @@ Press `Ctrl + M` to trigger Gray Code completion in the editor.
 - Press `Tab` to accept the suggestion.
 - Press `Esc` to dismiss it.
 
-### Errors in the Extension
+### Extension Errors
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.002.png" alt=""/>
 
@@ -89,3 +89,9 @@ From this tab, you can:
 
 - Terminate any active extension.
 - Monitor progress, as extensions that send progress updates will display a progress bar here.
+-
+
+### Extension Updates and Notifications
+
+If an extension sends an update, it will appear under `Extensions` → `Updates`.
+If an extension sends a notification, it will be shown under `Extensions` → `Notifications`.
