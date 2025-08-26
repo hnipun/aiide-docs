@@ -75,5 +75,7 @@ Press `Ctrl + M` to trigger Gray Code completion in the editor.
 
 ### Errors in the Extension
 
+<img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.002.png" alt=""/>
+
 If an extension encounters any errors during execution, they will appear under `Extensions` → `Errors`. It will
 provide details such as error messages and stack traces to help you debug and resolve the issue.
