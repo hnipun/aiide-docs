@@ -43,7 +43,7 @@ Once these steps are complete, the editor is ready for use.
 
 #### Types
 
-##### Chat
+<u>##### Chat</u>
 
 The user can access this from the left-side pane.
 
