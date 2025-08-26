@@ -115,3 +115,25 @@ From this file, you can configure the main entry file and other settings for eac
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.004.png" alt=""/>
 
 Any errors in the `config.yaml` file will be displayed in the `Extensions` tab.
+
+#### 2. Extension API
+
+The [ExtensionAPI](https://github.com/hnipun/extensions/blob/main/common/api.py)
+defines:
+
+The data passed from the editor to the extension.
+
+The utility functions available for extensions to interact with the editor.
+
+Every extension’s main file must include a function with the following definition:
+
+```python
+def extension(api: ExtensionAPI):
+    pass
+``` 
+
+This function is executed by the editor when the extension runs.
+
+#### 3. extensions/common directory
+
+#### 4. Logs
