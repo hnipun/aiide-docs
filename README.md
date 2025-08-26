@@ -104,5 +104,14 @@ This will override all the default extensions, as the editor will use this direc
 executing extensions.
 
 The easiest way to get started is to copy
-the [default extensions directory](https://github.com/hnipun/extensions/tree/main) into your project and customize it as
-needed.
+the [default extensions directory](https://github.com/hnipun/extensions/tree/main) into your project (top level) and
+customize it as needed.
+
+#### config.yaml
+
+All extension-related settings are defined in [config.yaml](https://github.com/hnipun/extensions/blob/main/config.yaml).
+From this file, you can configure the main entry file and other settings for each extension.
+
+<img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.004.png" alt=""/>
+
+Any errors in the `config.yaml` file will be displayed in the `Extensions` tab.
