@@ -98,3 +98,11 @@ If an extension sends an update, it will appear under `Extensions` → `Updates`
 If an extension sends a notification, it will be shown under `Extensions` → `Notifications`.
 
 ### Custom Extensions
+
+To use your own set of extensions, create a directory named `extensions` at the root level of your project.
+This will override all the default extensions, as the editor will use this directory as the extension path when
+executing extensions.
+
+The easiest way to get started is to copy
+the [default extensions directory](https://github.com/hnipun/extensions/tree/main) into your project and customize it as
+needed.
