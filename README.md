@@ -21,7 +21,7 @@ ones.
 
 ## Terminal
 
-To reset the terminal (clearing both the display and back-scroll history), click the Reset button.
+To reset the terminal (clearing both the display and back-scroll history), click the `Reset` button.
 
 ## Extensions
 
@@ -133,6 +133,8 @@ def extension(api: ExtensionAPI):
 
 This function is executed by the editor when the extension runs.
 
-#### 3. extensions/common directory
+#### 3. `extensions/common` directory
+
+
 
 #### 4. Logs
