@@ -49,9 +49,14 @@ Once these steps are complete, the editor is ready for use.
 
 The user can access this from the left-side pane.
 
-- By default, the context sent to the LLM includes only the tabs that are currently open.
-- However, the user can also select additional files or folders using the `+ context` option.
-- Terminal content (last 1000 lines) is also included in the context sent to the LLM.
+<img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.005.png" alt=""/>
+
+- Users can select a Chat extension to run from the dropdown menu.
+- In the `default` chat extension, the context sent to the LLM includes only the currently open tabs.
+- Users can manually add more context, such as additional files or folders using the `+ context` option.
+- The `files` extension automatically determines the relevant context to include, ignoring open tabs and any manually
+  added context.
+- In both extensions, the last 1,000 lines of Terminal output are also included in the context sent to the LLM.
 
 ##### 2. Apply
 
