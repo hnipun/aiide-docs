@@ -4,7 +4,7 @@
 
 Use the link below to download the app:
 
-[notbadaiide v0.9.3] (https://drive.google.com/file/d/15y4yP5h8VkHg-PVIqQN9Tr3zKMpTOaip/view?usp=sharing)
+[notbadaiide v0.9.3](https://drive.google.com/file/d/15y4yP5h8VkHg-PVIqQN9Tr3zKMpTOaip/view?usp=sharing)
 
 After downloading, unzip the file and run the following command in your terminal (replace the path with the actual location of the app file):
 
@@ -17,7 +17,7 @@ xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.3app
 ## Code Editor
 
 The code editor supports shortcuts similar to VS
-Code. [Here](https://github.com/hnipun/aiide-docs/blob/main/code_editing_shortcuts.md)’s a list of the most popular ones
+Code. [Here](https://github.com/hnipun/aiide-docs/blob/main/code_editing_shortcuts.md)’s a list of the most popular ones.
 
 ## Terminal
 
