@@ -60,6 +60,8 @@ The user can access this from the left-side pane.
 
 ##### 2. Apply
 
+<img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.006.png" alt=""/>
+
 Whenever the chat provides a code suggestion, it appears inside a code block.
 Each code block includes an Apply button:
 
