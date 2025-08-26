@@ -64,7 +64,8 @@ Each code block includes an Apply button:
 ##### 3. Autocomplete
 
 Works like most code editors: as user type, a suggestion popup appears, allowing user to pick from a list of
-options. Open tabs are automatically used as context to provide more accurate suggestions.
+options. Open tabs are automatically used as context to provide more accurate suggestions. Press `Shift+Cmd+Space`
+trigger autocomplete suggestions manually.
 
 ##### 4. Gray Code Completions
 
@@ -95,3 +96,5 @@ From this tab, you can:
 
 If an extension sends an update, it will appear under `Extensions` → `Updates`.
 If an extension sends a notification, it will be shown under `Extensions` → `Notifications`.
+
+### Custom Extensions
