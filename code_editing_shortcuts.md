@@ -1,5 +1,11 @@
 # Code Editing Shortcuts
 
+Trigger Autocompletion
+
+```bash
+Shift+Cmd+Space
+```
+
 Go To Start & End Of Line
 
 ```bash
