@@ -79,3 +79,13 @@ Press `Ctrl + M` to trigger Gray Code completion in the editor.
 
 If an extension encounters any errors during execution, they will appear under `Extensions` → `Errors`. It will
 provide details such as error messages and stack traces to help you debug and resolve the issue.
+
+### Running Extensions
+
+<img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.003.png" alt=""/>
+
+Extensions that are currently running will be listed under Extensions → Running.
+From this tab, you can:
+
+- Terminate any active extension.
+- Monitor progress, as extensions that send progress updates will display a progress bar here.
