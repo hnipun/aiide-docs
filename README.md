@@ -43,7 +43,7 @@ Once these steps are complete, the editor is ready for use.
 
 #### Types
 
-##### Chat
+##### 1. Chat
 
 The user can access this from the left-side pane.
 
@@ -51,7 +51,7 @@ The user can access this from the left-side pane.
 - However, the user can also select additional files or folders using the `+ context` option.
 - Terminal content (last 1000 lines) is also included in the context sent to the LLM.
 
-##### Apply
+##### 2. Apply
 
 Whenever the chat provides a code suggestion, it appears inside a code block.
 Each code block includes an Apply button:
@@ -59,12 +59,12 @@ Each code block includes an Apply button:
 - Click Apply to review a diff between your current file and the suggested code.
 - If the file doesn’t exist, you’ll be prompted to create it.
 
-##### Autocomplete
+##### 3. Autocomplete
 
 Works like most code editors: as user type, a suggestion popup appears, allowing user to pick from a list of
 options. Open tabs are automatically used as context to provide more accurate suggestions.
 
-##### Gray Code Completions
+##### 4. Gray Code Completions
 
 Press `Ctrl + M` to trigger Gray Code completion in the editor.
 
