@@ -73,3 +73,7 @@ Press `Ctrl + M` to trigger Gray Code completion in the editor.
 - Press `Tab` to accept the suggestion.
 - Press `Esc` to dismiss it.
 
+### Errors in the Extension
+
+If an extension encounters any errors during execution, they will appear under `Extensions` → `Errors`. It will
+provide details such as error messages and stack traces to help you debug and resolve the issue.
