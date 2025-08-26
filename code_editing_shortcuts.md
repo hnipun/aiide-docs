@@ -6,6 +6,12 @@ Trigger Autocompletion
 Shift+Cmd+Space
 ```
 
+Change Tabs UI
+
+```bash
+Ctrl+Tab
+```
+
 Go To Start & End Of Line
 
 ```bash

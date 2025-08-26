@@ -12,6 +12,10 @@ after downloading unzip and run the following command:
 xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.3app
 ```
 
+## Code Editor
+
+
+
 ## Default Extensions
 
 Extensions are Python scripts that enable interactions with LLMs, such as chat, code apply, autocomplete, gray
