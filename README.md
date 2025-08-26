@@ -33,6 +33,8 @@ section).
 
 #### Setup
 
+<img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.001.png" alt=""/>
+
 - When the editor is launched for the first time, the default extensions will be downloaded to `~
   /.notbadaiide/extensions/.`
 - This can be verified by navigating to `Extensions` (left side pane) → `Management` and checking the
