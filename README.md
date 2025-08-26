@@ -2,18 +2,22 @@
 
 ## Download
 
-use the following like to download the app:
+Use the link below to download the app:
 
-https://drive.google.com/file/d/15y4yP5h8VkHg-PVIqQN9Tr3zKMpTOaip/view?usp=sharing
+[notbadaiide v0.9.3] (https://drive.google.com/file/d/15y4yP5h8VkHg-PVIqQN9Tr3zKMpTOaip/view?usp=sharing)
 
-after downloading unzip and run the following command:
+After downloading, unzip the file and run the following command in your terminal (replace the path with the actual location of the app file):
 
+````
 ```bash
 xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.3app
 ```
+````
 
 ## Code Editor
-The code editor supports shortcuts similar to VS Code. [Here](https://github.com/hnipun/aiide-docs/blob/main/code_editing_shortcuts.md)’s a list of the most popular ones
+
+The code editor supports shortcuts similar to VS
+Code. [Here](https://github.com/hnipun/aiide-docs/blob/main/code_editing_shortcuts.md)’s a list of the most popular ones
 
 ## Terminal
 
