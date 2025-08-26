@@ -84,7 +84,7 @@ provide details such as error messages and stack traces to help you debug and re
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.003.png" alt=""/>
 
-Extensions that are currently running will be listed under Extensions → Running.
+Extensions that are currently running will be listed under `Extensions` → `Running`.
 From this tab, you can:
 
 - Terminate any active extension.
