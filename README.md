@@ -139,7 +139,7 @@ The `extensions/common` directory is automatically added to the Python path when
 This allows you to import shared utilities, or settings directly into your extensions without needing relative
 paths.
 
-example
+example:
 
 ```python
 from common.api import ExtensionAPI
