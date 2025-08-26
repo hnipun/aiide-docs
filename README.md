@@ -16,7 +16,7 @@ xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.3app
 ## Code Editor
 
 The code editor supports shortcuts similar to VS
-Code. [Here](https://github.com/hnipun/aiide-docs/blob/main/code_editing_shortcuts.md)’s a list of the most popular
+Code. [Here](https://github.com/hnipun/aiide-docs/blob/main/code_editing_shortcuts.md)’s a list of the popular
 ones.
 
 ## Terminal
