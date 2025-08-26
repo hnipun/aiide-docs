@@ -135,6 +135,16 @@ This function is executed by the editor when the extension runs.
 
 #### 3. `extensions/common` directory
 
+The `extensions/common` directory is automatically added to the Python path when running an extension.
+This allows you to import shared utilities, or settings directly into your extensions without needing relative
+paths.
 
+example
+
+```python
+from common.api import ExtensionAPI
+from common.diff import get_matches
+from common.settings import LLM_PROVIDERS
+```
 
 #### 4. Logs
