@@ -157,6 +157,6 @@ These logs are generated each time the extension runs.
 
 To view the logs:
 
-- Go to View → Toggle Developer Tools
+- Go to `View` → `Toggle Developer Tools`
 
 - Or use the shortcut `Shift+Cmd+I` 
