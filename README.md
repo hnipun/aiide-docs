@@ -62,10 +62,11 @@ The user can access this from the left-side pane.
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.006.png" alt=""/>
 
-Whenever the chat provides a code suggestion, it appears inside a code block.
-Each code block includes an Apply button:
+When the chat provides a code suggestion, it appears inside a code block.
+Each code block includes an `Apply` button:
 
-- Click Apply to review a diff between your current file and the suggested code.
+- Click `Apply` to review a diff between your current file and the suggested code.
+- Click `Accept` to apply the changes (the file will be updated) or `Reject` to discard the suggestion (in the diff view).
 - If the file doesn’t exist, you’ll be prompted to create it.
 
 ##### 3. Autocomplete
