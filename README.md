@@ -147,4 +147,16 @@ from common.diff import get_matches
 from common.settings import LLM_PROVIDERS
 ```
 
-#### 4. Logs
+#### 4. Debug Logs
+
+During extension development, you can add debug logs using the [
+`log`](https://github.com/hnipun/extensions/blob/32a86209fb968d1b157d72ef73e43d2a95452523/common/api.py#L234)  function
+provided by the ExtensionAPI.
+
+These logs are generated each time the extension runs.
+
+To view the logs:
+
+- Go to View → Toggle Developer Tools
+
+- Or use the shortcut `Shift+Cmd+I` 
