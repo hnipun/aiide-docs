@@ -8,11 +8,9 @@ Use the link below to download the app:
 
 After downloading, unzip the file and run the following command in your terminal (replace the path with the actual location of the app file):
 
-````
 ```bash
 xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.3app
 ```
-````
 
 ## Code Editor
 
