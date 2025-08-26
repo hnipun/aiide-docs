@@ -121,11 +121,10 @@ Any errors in the `config.yaml` file will be displayed in the `Extensions` tab.
 The [ExtensionAPI](https://github.com/hnipun/extensions/blob/main/common/api.py)
 defines:
 
-The data passed from the editor to the extension.
-
+- The data passed from the editor to the extension.
 - The utility functions available for extensions to interact with the editor.
 
-- Every extension’s main file must include a function with the following definition:
+Every extension’s main file must include a function with the following definition:
 
 ```python
 def extension(api: ExtensionAPI):
