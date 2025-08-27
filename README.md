@@ -25,13 +25,11 @@ To reset the terminal (clearing both the display and back-scroll history), click
 
 ## Extensions
 
-### Default Extensions
-
 Extensions are Python scripts that enable interactions with LLMs, such as chat, code apply, autocomplete, gray
 completions etc. Users can create their own extensions, which the editor will manage and execute (explained in a later
 section).
 
-#### Setup
+### Setup
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.001.png" alt=""/>
 
@@ -43,9 +41,9 @@ section).
 
 Once these steps are complete, the editor is ready for use.
 
-#### Types
+### Default Extensions
 
-##### 1. Chat
+#### 1. Chat
 
 The user can access this from the left-side pane.
 
@@ -58,7 +56,7 @@ The user can access this from the left-side pane.
   added context.
 - In both extensions, the last 1,000 lines of Terminal output are also included in the context sent to the LLM.
 
-##### 2. Apply
+#### 2. Apply
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.006.png" alt=""/>
 
@@ -69,13 +67,13 @@ Each code block includes an `Apply` button:
 - Click `Accept` to apply the changes (the file will be updated) or `Reject` to discard the suggestion (in the diff view).
 - If the file doesn’t exist, you’ll be prompted to create it.
 
-##### 3. Autocomplete
+#### 3. Autocomplete
 
 Works like most code editors: as user type, a suggestion popup appears, allowing user to pick from a list of
 options. Open tabs are automatically used as context to provide more accurate suggestions. Press `Shift+Cmd+Space`
 trigger autocomplete suggestions manually.
 
-##### 4. Gray Code Completions
+#### 4. Gray Code Completions
 
 Press `Ctrl + M` to trigger Gray Code completion in the editor.
 
@@ -105,7 +103,7 @@ From this tab, you can:
 If an extension sends an update, it will appear under `Extensions` → `Updates`.
 If an extension sends a notification, it will be shown under `Extensions` → `Notifications`.
 
-### Custom Extensions
+###  Developing Your Own Extensions 
 
 To use your own set of extensions, create a directory named `extensions` at the root level of your project.
 This will override all the default extensions, as the editor will use this directory as the extension path when
