@@ -2,9 +2,8 @@
 
 ## Download
 
-Use the link below to download the app:
+Use the [link here](https://drive.google.com/file/d/1BDY5TyOPOtnuMeiB0C535q3O3aGcmTiB/view?usp=sharing) to download the app:
 
-[download here](https://drive.google.com/file/d/1BDY5TyOPOtnuMeiB0C535q3O3aGcmTiB/view?usp=sharing)
 
 ## Code Editor
 
