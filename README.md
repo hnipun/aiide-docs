@@ -1,17 +1,10 @@
-# notbadaiide v0.9.4
+# notbadaiide
 
 ## Download
 
 Use the link below to download the app:
 
-[notbadaiide v0.9.4](https://drive.google.com/file/d/1BDY5TyOPOtnuMeiB0C535q3O3aGcmTiB/view?usp=sharing)
-
-After downloading, unzip the file and run the following command in your terminal (replace the path with the actual
-location of the app file):
-
-```bash
-xattr -dr com.apple.quarantine /path/to/ai-editor-v0.9.4app
-```
+[download here](https://drive.google.com/file/d/1BDY5TyOPOtnuMeiB0C535q3O3aGcmTiB/view?usp=sharing)
 
 ## Code Editor
 
