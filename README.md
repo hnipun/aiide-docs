@@ -107,7 +107,6 @@ From this tab, you can:
 
 - Terminate any active extension.
 - Monitor progress, as extensions that send progress updates will display a progress bar here.
--
 
 ### Extension Updates and Notifications
 
