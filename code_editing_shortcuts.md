@@ -12,6 +12,19 @@ Change Tabs UI
 Ctrl+Tab
 ```
 
+Select the whole content of the editor
+```bash
+Cmd+A
+
+Ctrl+A
+```
+
+Deletes the part of the line after the cursor
+
+```bash
+Ctrl+K
+```
+
 Go To Start & End Of Line
 
 ```bash
