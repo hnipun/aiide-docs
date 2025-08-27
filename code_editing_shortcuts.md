@@ -1,31 +1,32 @@
 # Code Editing Shortcuts
 
-Trigger Autocompletion
+## Trigger Autocompletion
 
 ```bash
 Shift+Cmd+Space
 ```
 
-Change Tabs UI
+## Change Tabs UI
 
 ```bash
 Ctrl+Tab
 ```
 
-Select the whole content of the editor
+## Select the whole content of the editor
+
 ```bash
 Cmd+A
 
 Ctrl+A
 ```
 
-Deletes the part of the line after the cursor
+## Deletes the part of the line after the cursor
 
 ```bash
 Ctrl+K
 ```
 
-Go To Start & End Of Line
+## Go To Start & End Of Line
 
 ```bash
 Cmd+Right
@@ -38,7 +39,7 @@ home
 end
 ```
 
-Move By Word
+## Move By Word
 
 ```bash
 Option+Right
@@ -48,7 +49,7 @@ Alt+Right
 Alt+Left
 ```
 
-Go To Start & End Of File
+## Go To Start & End Of File
 
 ```bash
 Cmd+Up
@@ -58,7 +59,7 @@ Ctrl+Home
 Ctrl+End
 ```
 
-Cut, Copy & Past Line
+## Cut, Copy & Past Line
 
 ```bash
 Cmd+X #Cut
@@ -70,7 +71,7 @@ Ctrl+C # Copy
 Ctrl+V # Paste
 ```
 
-Move Line Up & Down
+## Move Line Up & Down
 
 ```bash
 Option+Up
@@ -80,7 +81,7 @@ Alt+Up
 Alt+Down
 ```
 
-Copy Line Up & Down
+## Copy Line Up & Down
 
 ```bash
 Shift+Option+Up
@@ -90,14 +91,15 @@ Shift+Alt+Up
 Shift+Alt+Down
 ```
 
-Remove Line
+## Remove Line
 
 ```bash
 ShiftCmd+K
+
 Shift+Ctrl+K
 ```
 
-Insert Line
+## Insert Line
 
 ```bash
 Cmd+Enter # Insert below
@@ -107,7 +109,7 @@ Ctrl+Enter # Insert below
 Shift+Ctrl+Enter # Insert above
 ```
 
-Jump To Matching Bracket
+## Jump To Matching Bracket
 
 ```bash
 Shift+Cmd+\
@@ -121,45 +123,129 @@ Cmd+/
 Ctrl+/
 ```
 
-Add Block Comment
+## Add Block Comment
 
 ```bash
 Shift+Option+A
 Shift+Alt+A
 ```
 
-Highlight Code
+## Highlight Code
 
 ```bash
 Shift+Any Direction
 ```
 
-Delete the part of the line from the cursor to the right side 
+## Delete the part of the line from the cursor to the right side
 
 ```bash
 Cmd+Delete
 ```
 
-Undo
+## Undo and Redo
 
 ```bash
 Cmd+Z
-
-Ctrl+Z
-```
-
-Redo
-
-```bash
 Cmd+Y
 
+Ctrl+Z
 Shift+Cmd+Z
 ```
 
-UndoSelection
+## UndoSelection and RedoSelection
 
 ```bash
 Cmd+U
+Shift+Cmd+U
 
-Ctrl+U 
+Ctrl+U
+Alt+U
+```
+
+## Delete word before cursor
+
+```bash
+Alt+Backspace
+```
+
+## Delete word after cursor
+
+```bash
+Alt+D 
+```
+
+## Indent line or selection
+
+```bash
+Cmd+]
+
+Ctrl+]
+```
+
+## Dedent line or selection
+
+```bash
+Cmd+[
+
+Ctrl+[
+```
+
+## Insert tab
+
+```bash
+Tab
+```
+
+## Auto-indent current line or selection
+
+```bash
+Shift+Tab
+```
+
+## Save (if mapped by app)
+
+```bash
+Cmd+S
+
+Ctrl+S
+```
+
+## Find in document
+
+```bash
+Cmd+F
+
+Ctrl+F
+```
+
+## Find next
+
+```bash
+Cmd+G
+
+Ctrl+G
+```
+
+## Find previous
+
+```bash
+Shift+Cmd+G
+
+Shift+Ctrl+G
+```
+
+## Replace
+
+```bash
+Cmd+Alt+F
+
+Shift+Ctrl+F
+```
+
+## Replace all
+
+```bash
+Shift+Cmd+Alt+F
+
+Shift+Ctrl+R
 ```
