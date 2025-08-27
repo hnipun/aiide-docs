@@ -133,3 +133,33 @@ Highlight Code
 ```bash
 Shift+Any Direction
 ```
+
+Delete the part of the line from the cursor to the right side 
+
+```bash
+Cmd+Delete
+```
+
+Undo
+
+```bash
+Cmd+Z
+
+Ctrl+Z
+```
+
+Redo
+
+```bash
+Cmd+Y
+
+Shift+Cmd+Z
+```
+
+UndoSelection
+
+```bash
+Cmd+U
+
+Ctrl+U 
+```
