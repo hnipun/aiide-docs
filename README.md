@@ -45,7 +45,7 @@ Once these steps are complete, the editor is ready for use.
 
 #### 1. Chat
 
-The user can access this from the left-side pane.
+You can access this from the left-side pane.
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.005.png" alt=""/>
 
