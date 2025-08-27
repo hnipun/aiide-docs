@@ -110,8 +110,8 @@ From this tab, you can:
 
 ### Extension Updates and Notifications
 
-If an extension sends an update, it will appear under `Extensions` → `Updates`.
-If an extension sends a notification, it will be shown under `Extensions` → `Notifications`.
+- If an extension sends an update, it will appear under `Extensions` → `Updates`.
+- If an extension sends a notification, it will be shown under `Extensions` → `Notifications`.
 
 ### Developing Your Own Extensions
 
