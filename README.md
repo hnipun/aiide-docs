@@ -26,18 +26,18 @@ To reset the terminal (clearing both the display and back-scroll history), click
 ## Extensions
 
 Extensions are Python scripts that enable interactions with LLMs, such as chat, code apply, autocomplete, gray
-completions etc. Users can create their own extensions, which the editor will manage and execute (explained in a later
+completions etc. You can also create your own extensions, which the editor will manage and execute (explained in a later
 section).
 
 ### Setup
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.001.png" alt=""/>
 
-- When the editor is launched for the first time, the default extensions will be downloaded to `~
+- When you launch the editor for the first time, the default extensions are downloaded to `~
   /.notbadaiide/extensions/.`
 - This can be verified by navigating to `Extensions` (left side pane) → `Management` and checking the
   `Extensions Repository`. It should display the downloaded.
-- The user also needs to configure the `Python Path` and `API Key` under `Extensions` → `Management`.
+- Make sure to set your `Python Path` and `API Key` under `Extensions` → `Management`.
 
 Once these steps are complete, the editor is ready for use.
 
@@ -49,9 +49,9 @@ The user can access this from the left-side pane.
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.005.png" alt=""/>
 
-- Users can select a Chat extension to run from the dropdown menu.
+- You can select a Chat extension to run from the dropdown menu.
 - In the `default` chat extension, the context sent to the LLM includes only the currently open tabs.
-- Users can manually add more context, such as additional files or folders using the `+ context` option.
+- You can manually add more context, such as additional files or folders using the `+ context` option.
 - The `files` extension automatically determines the relevant context to include, ignoring open tabs and any manually
   added context.
 - In both extensions, the last 1,000 lines of Terminal output are also included in the context sent to the LLM.
@@ -64,12 +64,13 @@ When the chat provides a code suggestion, it appears inside a code block.
 Each code block includes an `Apply` button:
 
 - Click `Apply` to review a diff between your current file and the suggested code.
-- Click `Accept` to apply the changes (the file will be updated) or `Reject` to discard the suggestion (in the diff view).
+- Click `Accept` to apply the changes (the file will be updated) or `Reject` to discard the suggestion (in the diff
+  view).
 - If the file doesn’t exist, you’ll be prompted to create it.
 
 #### 3. Autocomplete
 
-Works like most code editors: as user type, a suggestion popup appears, allowing user to pick from a list of
+Works like most code editors: as you type, a suggestion popup appears, allowing you to pick from a list of
 options. Open tabs are automatically used as context to provide more accurate suggestions. Press `Shift+Cmd+Space`
 trigger autocomplete suggestions manually.
 
@@ -103,7 +104,7 @@ From this tab, you can:
 If an extension sends an update, it will appear under `Extensions` → `Updates`.
 If an extension sends a notification, it will be shown under `Extensions` → `Notifications`.
 
-###  Developing Your Own Extensions 
+### Developing Your Own Extensions
 
 To use your own set of extensions, create a directory named `extensions` at the root level of your project.
 This will override all the default extensions, as the editor will use this directory as the extension path when
