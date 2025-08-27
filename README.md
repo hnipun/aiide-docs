@@ -45,6 +45,9 @@ Once these steps are complete, the editor is ready for use.
 
 #### 1. Chat
 
+Lets you talk to your LLM directly from the editor. You can ask for code
+explanations, code suggestions, and edits.
+
 You can access this from the left-side pane.
 
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.005.png" alt=""/>
@@ -58,6 +61,9 @@ You can access this from the left-side pane.
 
 #### 2. Apply
 
+Lets you review and apply code suggestions from the LLM. You can see a diff, accept the changes, or discard them with a
+click.
+
 <img src="https://github.com/hnipun/aiide-docs/blob/main/images/image.006.png" alt=""/>
 
 When the chat provides a code suggestion, it appears inside a code block.
@@ -70,11 +76,15 @@ Each code block includes an `Apply` button:
 
 #### 3. Autocomplete
 
+Provides smart single-line suggestions as you type.
+
 Works like most code editors: as you type, a suggestion popup appears, allowing you to pick from a list of
 options. Open tabs are automatically used as context to provide more accurate suggestions. Press `Shift+Cmd+Space`
 trigger autocomplete suggestions manually.
 
 #### 4. Gray Code Completions
+
+Shows inline ghost-text suggestions, single or multi-line, to help you complete code quickly.
 
 Press `Ctrl + M` to trigger Gray Code completion in the editor.
 
